@@ -1,0 +1,9 @@
+# Don't commit personal data
+memory/
+output/
+*.env
+.env*
+
+# OS files
+.DS_Store
+Thumbs.db
