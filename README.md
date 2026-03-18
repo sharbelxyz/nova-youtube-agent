@@ -44,7 +44,7 @@ Built with [OpenClaw](https://openclaw.ai). Self-installs in under 5 minutes.
 Just tell your OpenClaw agent:
 
 ```
-Install this skill: https://github.com/sharbel/nova-youtube-agent
+Install this skill: https://github.com/sharbelxyz/nova-youtube-agent
 ```
 
 OpenClaw will clone the repo, install the skill, and Nova will run onboarding automatically.
@@ -53,7 +53,7 @@ OpenClaw will clone the repo, install the skill, and Nova will run onboarding au
 
 ```bash
 # Clone into your OpenClaw skills directory
-git clone https://github.com/sharbel/nova-youtube-agent.git ~/clawd/skills/nova-youtube-agent
+git clone https://github.com/sharbelxyz/nova-youtube-agent.git ~/clawd/skills/nova-youtube-agent
 ```
 
 Then tell your OpenClaw:
