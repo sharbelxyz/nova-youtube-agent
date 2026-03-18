@@ -1,4 +1,4 @@
-# Nova Config — Fill This In
+# Nova Config - Fill This In
 
 This is the only file you need to edit. Nova reads this to understand your channel and your goals.
 
@@ -11,7 +11,7 @@ YOUR_NAME: [Your name]
 YOUR_CHANNEL_NAME: [Your YouTube channel name]
 YOUR_CHANNEL_URL: https://youtube.com/@yourchannel
 YOUR_NICHE: [e.g. AI tools, personal finance, fitness, cooking, dev tutorials]
-YOUR_AUDIENCE: [Who watches you — e.g. "early-stage founders who want to use AI to grow faster"]
+YOUR_AUDIENCE: [Who watches you - e.g. "early-stage founders who want to use AI to grow faster"]
 YOUR_GOAL: [e.g. "Hit 10,000 subscribers by end of 2025"]
 CURRENT_SUBSCRIBERS: [e.g. 1,200]
 POSTING_FREQUENCY: [e.g. "1 video per week"]
@@ -52,9 +52,9 @@ What topics are you known for or want to be known for?
 
 ```
 CORE_TOPICS:
-  - [Topic 1 — e.g. AI automation]
-  - [Topic 2 — e.g. building in public]
-  - [Topic 3 — e.g. solopreneur systems]
+  - [Topic 1 - e.g. AI automation]
+  - [Topic 2 - e.g. building in public]
+  - [Topic 3 - e.g. solopreneur systems]
 ```
 
 ---
@@ -67,7 +67,7 @@ Anything you've tried that flopped, topics you hate, formats that feel off-brand
 AVOID:
   - [e.g. "talking head videos with no screen share"]
   - [e.g. "listicles without a real story behind them"]
-  - [e.g. "any video about [topic] — tried it twice, tanked both times"]
+  - [e.g. "any video about [topic] - tried it twice, tanked both times"]
 ```
 
 ---

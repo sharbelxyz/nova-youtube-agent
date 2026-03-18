@@ -1,4 +1,4 @@
-# Nova — YouTube Growth Agent for OpenClaw
+# Nova - YouTube Growth Agent for OpenClaw
 
 Nova is an AI agent that handles your YouTube content strategy end-to-end.
 Competitor research. Channel analysis. Video ideas. Scripts. Performance tracking. Feedback loop.
@@ -16,8 +16,8 @@ Built with [OpenClaw](https://openclaw.ai). Self-installs in under 5 minutes.
 | 💡 Idea Generation | Interviews you first, then generates research-backed ideas grounded in real experience |
 | 📝 Script Writing | Full scripts in your voice with a complete SEO package (title variants, description, tags, chapters, thumbnail) |
 | 📈 Performance Logging | Tracks how each video does after publishing |
-| 🔄 Feedback Loop | Logs every approval and rejection with reasons — Nova never repeats a rejected angle |
-| 🧠 Learning Loop | Reads all memory files before every session — gets smarter the longer you use it |
+| 🔄 Feedback Loop | Logs every approval and rejection with reasons - Nova never repeats a rejected angle |
+| 🧠 Learning Loop | Reads all memory files before every session - gets smarter the longer you use it |
 
 ---
 
@@ -32,12 +32,12 @@ Built with [OpenClaw](https://openclaw.ai). Self-installs in under 5 minutes.
 ## Requirements
 
 - [OpenClaw](https://openclaw.ai) installed
-- Any supported AI model (Claude, GPT-4o, Gemini — all work)
+- Any supported AI model (Claude, GPT-4o, Gemini - all work)
 - A YouTube channel (any size, any niche)
 
 ---
 
-## Installation — 2 Ways
+## Installation - 2 Ways
 
 ### Option A: Send the repo link to OpenClaw (easiest)
 
@@ -78,7 +78,7 @@ First time you run Nova, she'll ask you 10 questions:
 7. How you naturally talk (voice description)
 8. 5-10 competitor channels to monitor
 9. What to avoid (flops, off-brand formats)
-10. Your top 2-3 videos (optional — for voice calibration)
+10. Your top 2-3 videos (optional - for voice calibration)
 
 Takes about 5 minutes. Nova writes your answers to `config.md` automatically. You never do this again.
 
@@ -92,16 +92,16 @@ After setup, just talk to her naturally:
 Nova, scan my competitors for what's working this week
 ```
 ```
-Nova, I want to make a video — interview me and let's find an idea
+Nova, I want to make a video - interview me and let's find an idea
 ```
 ```
 Nova, write a full script for [idea]
 ```
 ```
-Nova, my last video got 4,200 views — log the performance
+Nova, my last video got 4,200 views - log the performance
 ```
 ```
-Nova, show me the feedback loop — what patterns have you noticed?
+Nova, show me the feedback loop - what patterns have you noticed?
 ```
 
 ---
@@ -109,11 +109,11 @@ Nova, show me the feedback loop — what patterns have you noticed?
 ## How the Learning Loop Works
 
 Nova keeps a `memory/` folder with:
-- `approved-ideas.md` — every idea you said yes to
-- `rejected-ideas.md` — every idea you rejected + why
-- `performance-log.md` — every video's stats after publishing
-- `competitor-scans.md` — history of niche research
-- `voice-examples.md` — your voice patterns and phrases
+- `approved-ideas.md` - every idea you said yes to
+- `rejected-ideas.md` - every idea you rejected + why
+- `performance-log.md` - every video's stats after publishing
+- `competitor-scans.md` - history of niche research
+- `voice-examples.md` - your voice patterns and phrases
 
 Before every session, Nova reads all of these. She never repeats a rejected angle. She weights suggestions toward what's actually performed on your channel. The longer you use her, the better the ideas.
 
@@ -169,7 +169,7 @@ Claude Sonnet or GPT-4o. Both work well for this.
 
 ## About
 
-Built by [Sharbel](https://youtube.com/@sharbel) — founder, AI builder, creator.
+Built by [Sharbel](https://youtube.com/@sharbel) - founder, AI builder, creator.
 
 Video that goes with this repo: [The AI Agent That Got Me YouTube Monetized](https://youtu.be/VIDEO_ID_HERE)
 
@@ -179,4 +179,4 @@ If this helps you, star the repo. More agent builds on the channel.
 
 ## License
 
-MIT — free to use, modify, and share.
+MIT - free to use, modify, and share.

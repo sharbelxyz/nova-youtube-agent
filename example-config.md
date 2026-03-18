@@ -1,4 +1,4 @@
-# Example Config — How a Real Creator Set This Up
+# Example Config - How a Real Creator Set This Up
 
 This is a real example of how a creator in the AI/builder space configured Nova.
 Use it as a reference, then fill in `config.md` with your own details.
