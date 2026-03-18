@@ -1,9 +1,21 @@
-# Don't commit personal data
-memory/
-output/
-*.env
-.env*
+# Personal config — users create this during onboarding, never commit it
+config.md
+
+# Memory files contain personal data — never commit
+memory/approved-ideas.md
+memory/rejected-ideas.md
+memory/performance-log.md
+memory/competitor-scans.md
+memory/channel-analysis.md
+memory/voice-examples.md
+
+# Keep the memory folder structure but not the contents
+!memory/.gitkeep
 
 # OS files
 .DS_Store
 Thumbs.db
+
+# Environment files
+*.env
+.env*
