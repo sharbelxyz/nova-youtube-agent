@@ -171,7 +171,7 @@ Claude Sonnet or GPT-4o. Both work well for this.
 
 Built by [Sharbel](https://youtube.com/@sharbel) - founder, AI builder, creator.
 
-Video that goes with this repo: [The AI Agent That Got Me YouTube Monetized](https://youtu.be/VIDEO_ID_HERE)
+Video that goes with this repo: [The AI Agent That Got Me YouTube Monetized](https://youtu.be/MwGbZkYYHVw)
 
 If this helps you, star the repo. More agent builds on the channel.
 
