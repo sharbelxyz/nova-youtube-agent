@@ -23,7 +23,7 @@ Built with [OpenClaw](https://openclaw.ai). Self-installs in under 5 minutes.
 
 ## Results (the creator who built this)
 
-- 1,010 subs → 3,010 in 4 weeks using Nova
+- 1,010 subs → 4,950 in 8 weeks using Nova (2,600+ gained in the last 4 weeks alone)
 - Hit YouTube monetization (1K subs + 4K watch hours)
 - Video prep cut from 4-6 hours to ~1 hour per video
 

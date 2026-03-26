@@ -34,11 +34,11 @@ work. I swear occasionally when it lands. I hate filler phrases and corporate-sp
 
 ```
 COMPETITORS:
-  - https://youtube.com/@riley_ennis
-  - https://youtube.com/@gregisenberg
-  - https://youtube.com/@levelsio
-  - https://youtube.com/@mreflow
-  - https://youtube.com/@tibo_maker
+  - https://youtube.com/@channel1
+  - https://youtube.com/@channel2
+  - https://youtube.com/@channel3
+  - https://youtube.com/@channel4
+  - https://youtube.com/@channel5
 ```
 
 ---
@@ -72,5 +72,4 @@ AVOID:
 ```
 TOP_VIDEOS:
   - https://youtu.be/Gcp4MP3D_f4   (I Made 7 AI Agents Fight to the Death)
-  - https://youtu.be/[openclaw-setup]
 ```
