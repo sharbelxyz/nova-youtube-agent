@@ -1,6 +1,6 @@
 # Notion To Film trigger notes
 
-Use this when Sharbel moves a Notion Content Board item into `To Film/Write` and expects Nova to generate a filming validation brief.
+Use this when the creator moves a Notion Content Board item into `To Film/Write` and expects Nova to generate a filming validation brief.
 
 ## Local scripts
 
@@ -10,7 +10,7 @@ Use this when Sharbel moves a Notion Content Board item into `To Film/Write` and
 
 ## Manual run pattern
 
-If Sharbel says he just moved an idea and wants it processed immediately, run the research wrapper, not only the watcher:
+If the creator says he just moved an idea and wants it processed immediately, run the research wrapper, not only the watcher:
 
 ```bash
 python3 ~/.hermes/scripts/notion_to_film_research.py --force
@@ -36,5 +36,5 @@ For each current or newly moved `To Film/Write` item, produce:
 
 - Do not call an idea vidIQ-backed unless vidIQ was actually checked in the current run.
 - Do not append a broad generic brief if the title needs repackaging. Say KILL unless repackaged, then give the better angle.
-- If multiple pages are already in `To Film/Write`, `--force` may process all current To Film items. Summarize verdicts clearly so Sharbel can see which one to film first.
-- Do not use generic framing like “most people use.” Start from Sharbel’s real system, current setup, receipts, and concrete operator workflow.
+- If multiple pages are already in `To Film/Write`, `--force` may process all current To Film items. Summarize verdicts clearly so the creator can see which one to film first.
+- Do not use generic framing like “most people use.” Start from the creator’s real system, current setup, receipts, and concrete operator workflow.

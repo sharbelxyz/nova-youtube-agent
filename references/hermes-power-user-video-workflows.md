@@ -1,6 +1,6 @@
 # Hermes power-user video workflow notes
 
-Use this reference when Sharbel is planning a Hermes Agent video, especially a power-user list, Mission Control walkthrough, or operator workflow video.
+Use this reference when the creator is planning a Hermes Agent video, especially a power-user list, Mission Control walkthrough, or operator workflow video.
 
 ## Positioning that worked
 
@@ -14,7 +14,7 @@ Avoid generic framing like:
 
 > Most people use Hermes like ChatGPT in a terminal, I use it like an operating system.
 
-Sharbel reacted negatively to that style because it sounds AI-generated. Prefer grounded lines based on actual use:
+The creator reacted negatively to that style because it sounds AI-generated. Prefer grounded lines based on actual use:
 
 > I do not care what Hermes can technically do. I care what I would rebuild immediately if I had to start over.
 
@@ -66,7 +66,7 @@ Say:
 
 ## Notion To Film webhook demo
 
-Best demo for Sharbel:
+Best demo for the creator:
 
 Trigger: a Notion Content Board item moves from Idea to To Film.
 
@@ -175,7 +175,7 @@ Key line:
 
 ## Specialist agents framing
 
-Sharbel liked this analogy:
+The creator liked this analogy:
 
 > You do not want your accountant to be your dentist. You do not want your dentist to be your pilot. So why would every AI agent have the same model, tools, memory, and job?
 

@@ -1,9 +1,9 @@
 # Viral TikTok AI Hacks YouTube Format
 
-Use this when Sharbel wants a YouTube video built around viral TikTok AI hacks or tools.
+Use this when the creator wants a YouTube video built around viral TikTok AI hacks or tools.
 
 ## Core lesson
-Do not build this as a generic "best AI tools" list. The viral format is: TikTok makes a specific promise, then Sharbel tests whether it survives real operator work.
+Do not build this as a generic "best AI tools" list. The viral format is: TikTok makes a specific promise, then the creator tests whether it survives real operator work.
 
 Each segment needs an actual individual TikTok video receipt URL. Do not use broad list TikToks, TikTok search links, or placeholder receipt notes as main segment evidence unless explicitly framed as intro proof only.
 
@@ -11,15 +11,15 @@ Each segment needs an actual individual TikTok video receipt URL. Do not use bro
 For every hack/tool:
 1. TikTok receipt: exact TikTok video URL, creator, views, likes, shares when available.
 2. TikTok promise: one sentence describing the claim.
-3. Sharbel's skepticism: what might be fake, cherry-picked, or only demo-friendly.
-4. Real test: a concrete operator task from Sharbel's workflow.
+3. the creator's skepticism: what might be fake, cherry-picked, or only demo-friendly.
+4. Real test: a concrete operator task from the creator's workflow.
 5. Result: show the artifact/output/failure on screen.
 6. Verdict: Fake, Mid, Real, or Keeper.
 
 ## Approved receipt set from Dec 2026 session
 Use this as a starting point, but re-verify before filming because TikTok freshness changes quickly.
 
-Approved by Sharbel:
+Approved lineup example:
 - ElevenLabs AI voice generator: https://www.tiktok.com/@benkaluza/video/7455016774476533024
 - NotebookLM learning hack: https://www.tiktok.com/@rpn/video/7553768554168945951
 - Claude Code as a web designer: https://www.tiktok.com/@nathanhodgson.ai/video/7644171990961573142
@@ -29,7 +29,7 @@ Approved by Sharbel:
 - Manus AI agent: https://www.tiktok.com/@lucaswebq/video/7601237301963934998
 - Google Opal / AI app builder: https://www.tiktok.com/@maxtalkstech/video/7610533021195832606
 
-Potential replacements for first two slots, because Sharbel rejected broad list videos as main segment receipts:
+Potential replacements for first two slots, because The creator rejected broad list videos as main segment receipts:
 - Gamma AI presentation hack: https://www.tiktok.com/@lourrutia.ppt/video/7321293213703097602
 - AI image prompt/selfie hack: https://www.tiktok.com/@ai.promptsforyou/video/7640107923439504662
 

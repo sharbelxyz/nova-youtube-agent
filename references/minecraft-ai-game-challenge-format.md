@@ -1,6 +1,6 @@
 # Minecraft AI game challenge format
 
-Session learning from Sharbel correction, 2026-06-04.
+Session learning from creator correction, 2026-06-04.
 
 Use this when scripting or packaging AI builds Minecraft, ChatGPT makes Minecraft, AI makes a game, or similar cross-niche breakout videos.
 
@@ -10,10 +10,10 @@ Use this when scripting or packaging AI builds Minecraft, ChatGPT makes Minecraf
   - `I Made Minecraft Using ChatGPT`
   - `I Asked AI To Make Minecraft`
 - If the viewer expects Minecraft, the prompt should be plain: `Make Minecraft`.
-- Do not soften it to `Minecraft-inspired` unless the video explicitly cannot claim Minecraft for legal/platform reasons. Sharbel pushed back on that because it weakens the click promise.
+- Do not soften it to `Minecraft-inspired` unless the video explicitly cannot claim Minecraft for legal/platform reasons. the creator pushed back on that because it weakens the click promise.
 - The video is not a tutorial first. It is a challenge test: can AI make a playable thing that passes player-level benchmarks?
 
-## Hook style Sharbel prefers
+## Hook style the creator prefers
 
 Start from the actual action and stakes:
 
@@ -29,7 +29,7 @@ Avoid defensive negation stacks like:
 Not a mod. Not a texture pack. Not a fake screenshot.
 ```
 
-Sharbel called this AI-sounding. If clarification is necessary, phrase it through the challenge rules instead of a canned negative list.
+the creator called this AI-sounding. If clarification is necessary, phrase it through the challenge rules instead of a canned negative list.
 
 ## Viral structure to preserve
 

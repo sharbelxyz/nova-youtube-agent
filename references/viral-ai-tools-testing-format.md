@@ -6,7 +6,7 @@ Use when preparing or scripting a broad video like "I Tried Every Viral AI Tool 
 If only openings, summaries, or selected transcript sections were analyzed, say that plainly. Do not imply every transcript was reviewed line by line unless it actually was. For script strategy, the usable pattern from viral testing videos is usually enough: viral claim, skepticism, live test, reaction, verdict, score, fast move.
 
 ## Recommended count
-For Sharbel, prefer testing 20 tools on camera instead of 50 or 100 unless the video only shows filtered winners.
+For the creator, prefer testing 20 tools on camera instead of 50 or 100 unless the video only shows filtered winners.
 
 Why 20 works:
 - Big enough for a strong click and thumbnail.

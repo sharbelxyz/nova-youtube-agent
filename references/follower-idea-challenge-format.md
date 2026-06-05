@@ -27,13 +27,13 @@ After collecting all comments, score each idea on 3 axes:
 
 | Axis | What to assess |
 |---|---|
-| **Buildability** | Can Sharbel actually demo this live with Hermes in 1-3 days? Does it require OAuth flows, payment rails, or hardware he doesn't have? |
+| **Buildability** | Can the creator actually demo this live with Hermes in 1-3 days? Does it require OAuth flows, payment rails, or hardware he doesn't have? |
 | **Entertainment value** | Will a viewer laugh, share, or screenshot this? Funny > useful for virality in challenge videos. |
 | **Originality** | Has this been done on YouTube before? Check if it's a known tutorial topic vs genuinely fresh. |
 
 ## Comparison Table Format
 
-Present this to Sharbel after reading comments:
+Present this to the creator after reading comments:
 
 ```
 ## Creator's 3 picks
@@ -57,7 +57,7 @@ Often the creator's picks are directionally right but a comment improves the ver
 - "AI girlfriend" → confirmed by adjacent comments (proxy wife, pet agent format)
 - "Hair agent" → weak without real proof asset; look for something demoable
 
-## After Sharbel confirms the 3
+## After the creator confirms the 3
 Move directly to script ideation. Ask:
 - Which one does he want to film first?
 - Does he have a working Hermes persona/voice setup for the girlfriend agent?

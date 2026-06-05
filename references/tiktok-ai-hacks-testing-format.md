@@ -1,6 +1,6 @@
 # TikTok AI Hacks Testing Format
 
-Use this when Sharbel wants a broad viral AI tools video reframed around TikTok-proven hacks or claims.
+Use this when the creator wants a broad viral AI tools video reframed around TikTok-proven hacks or claims.
 
 ## Core lesson
 Package the video as testing TikTok promises, not reviewing tools. The viewer wants to see whether viral AI claims survive real work.
@@ -22,10 +22,10 @@ Avoid defaulting to generic list titles like `10 AI Tools You Need` unless the u
    - shares/reposts if available
    - comments if available
    - exact viral promise/claim
-   - how Sharbel will test it with real operator work
+   - how the creator will test it with real operator work
 3. Use `yt-dlp --dump-json <tiktok-url>` when possible to verify TikTok metadata. TikTok browser search may expose video links and like counts in the DOM even when logged out. Individual TikTok URLs often work better than search pages.
 4. Start every segment with the TikTok receipt: `TikTok says this can do X. I am testing whether it survives Y.`
-5. Then run a real test, not a homepage demo. Prefer tasks from Sharbel's actual workflow: build a page, research a video, create a thumbnail, audit sources, create production audio, turn notes into a brief, or automate a content workflow.
+5. Then run a real test, not a homepage demo. Prefer tasks from the creator's actual workflow: build a page, research a video, create a thumbnail, audit sources, create production audio, turn notes into a brief, or automate a content workflow.
 6. Give each segment a blunt verdict: Fake, Mid, Real, or Keeper.
 7. Use a scoreboard across the video so retention has a visible game mechanic.
 8. Only after the TikTok receipt list is verified should you write or update the Notion script page.
@@ -73,7 +73,7 @@ These are useful references, but refresh before final scripting because TikTok f
 - Veo 3 image-to-video: https://www.tiktok.com/@sebastienjefferies/video/7525021018868469014
   - 274.9K views, 10K likes
   - Claim: world's best video model can turn images into video.
-  - Test: turn a still image of Sharbel's setup into cinematic AI-agent B-roll.
+  - Test: turn a still image of the creator's setup into cinematic AI-agent B-roll.
 
 - Google Opal/app builder: https://www.tiktok.com/@maxtalkstech/video/7610533021195832606
   - 101.9K views, 5.4K likes
@@ -101,4 +101,4 @@ These are useful references, but refresh before final scripting because TikTok f
   - Test: produce a fake ad read or narration for one segment and judge if production-ready.
 
 ## Pitfall
-Do not tell Sharbel TikTok links are in the script when they are only search links or generic filming notes. If individual TikTok URLs cannot be verified, say so plainly and keep researching. Search links are not receipts.
+Do not tell the creator TikTok links are in the script when they are only search links or generic filming notes. If individual TikTok URLs cannot be verified, say so plainly and keep researching. Search links are not receipts.

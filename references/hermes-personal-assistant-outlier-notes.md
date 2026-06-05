@@ -31,7 +31,7 @@ Telegram is a major proof surface, not a minor integration. In sampled transcrip
 - Position Hermes as different from a browser chatbot because it can run continuously and message first.
 - Compare Hermes to Claude Code and OpenClaw when relevant.
 
-This means generic beginner setup is crowded. For Sharbel, avoid making another plain beginner guide unless there is a new setup route or major product change.
+This means generic beginner setup is crowded. For the creator, avoid making another plain beginner guide unless there is a new setup route or major product change.
 
 ## Strong Alex Finn use-case pattern
 
@@ -44,9 +44,9 @@ Alex Finn’s use-case video is closer to a power-user list than a beginner assi
 5. General computer administrator, often framed with Tailscale and multi-device access.
 6. Morning priority prompt, Hermes asks every morning what matters most, suggests tasks it can handle, and updates memory.
 
-## Sharbel adaptation
+## the creator adaptation
 
-Do not copy the builder-heavy examples one for one. Adapt the pattern to Sharbel’s operator, YouTube, and business workflows:
+Do not copy the builder-heavy examples one for one. Adapt the pattern to the creator’s operator, YouTube, and business workflows:
 
 - Morning priority prompt for content and operator priorities.
 - Work diary or memory wiki for YouTube decisions, strategy changes, and reusable lessons.
@@ -78,7 +78,7 @@ Recommended thumbnail text:
 
 Core angle:
 
-Most people use Hermes like ChatGPT in a terminal. Sharbel uses it like an employee that runs from Telegram, remembers preferences, schedules work, researches ideas, updates the workspace, delegates to subagents, and asks what matters every day.
+Most people use Hermes like ChatGPT in a terminal. the creator uses it like an employee that runs from Telegram, remembers preferences, schedules work, researches ideas, updates the workspace, delegates to subagents, and asks what matters every day.
 
 ## Transcript-analysis workflow lesson
 
@@ -88,4 +88,4 @@ When an outlier claim says a broad category is working, pull transcripts and ins
 - Actual demos shown.
 - Repeated feature claims.
 - Setup content versus power-user workflows.
-- What is crowded versus what Sharbel can uniquely prove.
+- What is crowded versus what the creator can uniquely prove.

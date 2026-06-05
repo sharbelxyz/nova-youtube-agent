@@ -1,6 +1,6 @@
 # Safe commerce agent demo pattern
 
-Use this reference when Sharbel wants to build or film an agent that browses a shopping site, ranks products, or creates a “mystery shopper” / “AI bought me something” moment.
+Use this reference when the creator wants to build or film an agent that browses a shopping site, ranks products, or creates a “mystery shopper” / “AI bought me something” moment.
 
 ## Core pattern
 

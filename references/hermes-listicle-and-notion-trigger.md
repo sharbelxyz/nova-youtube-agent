@@ -1,10 +1,10 @@
 # Hermes listicle and Notion To Film trigger notes
 
-Use this reference when Sharbel is planning Hermes Agent videos, especially listicles around 24/7 assistant workflows.
+Use this reference when the creator is planning Hermes Agent videos, especially listicles around 24/7 assistant workflows.
 
 ## Packaging preference
 
-Sharbel rejected abstract packaging like "How I'd Set Up Hermes Agent as a Real Operating System" for this video class. Prefer a clear listicle frame:
+The creator rejected abstract packaging like "How I'd Set Up Hermes Agent as a Real Operating System" for this video class. Prefer a clear listicle frame:
 
 - `10 Hermes Agent Hacks That Make It Feel Like a 24/7 Assistant`
 - `10 Hermes Agent Hacks That Turn It Into a 24/7 Assistant`
@@ -28,7 +28,7 @@ High-priority sections:
 
 ## Notion To Film trigger pattern
 
-For Sharbel's current Content Board:
+For the creator's current Content Board:
 
 - Database title: `Content Board`
 - Database ID: `<YOUR_NOTION_CONTENT_BOARD_DATABASE_ID>`
@@ -63,7 +63,7 @@ Frame skills as SOPs for agents. Use Nova as proof:
 - uses performance data
 - writes scripts with the retention framework
 - creates upload SEO packages
-- knows Sharbel's voice and constraints
+- knows the creator's voice and constraints
 
 Sticky lines:
 

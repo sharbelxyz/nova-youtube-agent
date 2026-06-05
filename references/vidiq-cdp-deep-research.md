@@ -42,7 +42,7 @@ asyncio.run(get_vidiq_tab("https://app.vidiq.com/research/explore?tab=videos"))
 
 ## Key URLs to Hit
 
-**Always check in Sharbel's preferred priority order: Top Search Terms first, Rising Keywords second, For You third, then keyword gaps/opportunities as an additional filter. YouTube autocomplete is only fallback or secondary validation when vidIQ is accessible.**
+**Always check in the configured creator's preferred priority order: Top Search Terms first, Rising Keywords second, For You third, then keyword gaps/opportunities as an additional filter. YouTube autocomplete is only fallback or secondary validation when vidIQ is accessible.**
 
 | URL | What You Get |
 |---|---|
@@ -52,7 +52,7 @@ asyncio.run(get_vidiq_tab("https://app.vidiq.com/research/explore?tab=videos"))
 | `https://app.vidiq.com/research/explore` | Keywords for you, outlier videos, rising keywords preview, top search terms, Shorts outliers |
 | `https://app.vidiq.com/research/explore?tab=videos` | Outlier videos with **multiplier score (e.g. 5.5x)**, VPH, channel name, subs, view count |
 | `https://app.vidiq.com/research/explore?tab=shorts` | Shorts outliers with VPH, view counts, >100x scores |
-| `https://app.vidiq.com/channels/UCxLzvFAUbpdNUIh0hGsEH0w/competition` | Sharbel's top competitor videos this week with outlier score + VPH |
+| `https://app.vidiq.com/channels/<YOUR_CHANNEL_ID>/competition` | the creator's top competitor videos this week with outlier score + VPH |
 
 **URLs that do NOT work (redirect to feed):**
 - `/channels/…/keyword-gaps`
@@ -91,7 +91,7 @@ This level of detail (VPH per channel, exact multiplier, recency) is NOT availab
 
 ## Top Search Terms (from explore main tab)
 
-The "Top search terms" section on the main explore page shows what's actually driving views to Sharbel's channel right now. As of 2026-05-26:
+The "Top search terms" section on the main explore page shows what's actually driving views to the creator's channel right now. Example output may look like:
 
 | Keyword | Views | Watch Time (min) |
 |---|---|---|
@@ -116,7 +116,7 @@ lines = [l.strip() for l in text.split('\n')
 
 ## Keyword Gap Sample (2026-05-26)
 
-From `?tab=keywords` — high volume, Low competition gaps not yet covered by Sharbel:
+From `?tab=keywords` — high volume, Low competition gaps not yet covered by the creator:
 
 | Keyword | Volume | Competition |
 |---|---|---|
@@ -142,5 +142,5 @@ Rising keyword relevant to niche from `?tab=keywords&keywordTab=rising`:
 
 - Wait at least 8 seconds after navigation before extracting. 5 seconds often returns partial content.
 - The vidIQ tab must already be open in Brave. If it closed, navigate to `https://app.vidiq.com/research/explore` first and wait for login.
-- The `competition` URL for Sharbel's channel is `/competition` not `/competitors`. Wrong URL silently redirects to the feed.
+- The `competition` URL for the creator's channel is `/competition` not `/competitors`. Wrong URL silently redirects to the feed.
 - Run all CDP reads in the same `async with websockets.connect(ws_url) as ws:` block to avoid repeated handshakes.

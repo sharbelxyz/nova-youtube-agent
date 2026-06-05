@@ -1,6 +1,6 @@
 # Hermes 24/7 assistant video research, 2026-05-26
 
-Use this as session-specific context when Sharbel asks for the next Hermes video, scripts, Shorts, upload SEO, or follow-up angles.
+Use this as session-specific context when the creator asks for the next Hermes video, scripts, Shorts, upload SEO, or follow-up angles.
 
 ## Recommended angle
 
@@ -8,7 +8,7 @@ Primary filming choice: `I Turned Hermes Agent Into My 24/7 Assistant`
 
 Backup/listicle title: `10 Hermes Agent Hacks That Turn It Into a 24/7 Assistant`
 
-Core promise: Sharbel shows his real Hermes-run operating layer, not a generic Hermes tutorial. The proof is his Max HQ Mission Control, Notion To Film trigger, Hermes Kanban board, cron jobs, Telegram topics, subagents, and Nova skill.
+Core promise: the creator shows his real Hermes-run operating layer, not a generic Hermes tutorial. The proof is his Mission Control Mission Control, Notion To Film trigger, Hermes Kanban board, cron jobs, Telegram topics, subagents, and Nova skill.
 
 ## Evidence snapshot
 
@@ -50,7 +50,7 @@ Weak or lower-fit patterns:
 
 ## Filming sequence
 
-1. Max HQ Mission Control, open with visual proof.
+1. Mission Control Mission Control, open with visual proof.
 2. Notion `To Film/Write` trigger, strongest 24/7 assistant behavior.
 3. Cron watcher, scheduled intelligence.
 4. Hermes Kanban, where agent work stops disappearing into chat.
@@ -77,7 +77,7 @@ Weak or lower-fit patterns:
 
 ## Demo assets
 
-- Max HQ dashboard with Hermes Kanban card visible and populated.
+- Mission Control dashboard with Hermes Kanban card visible and populated.
 - Notion Content Board page in `To Film/Write`.
 - Telegram thread where Nova brief arrives.
 - Cron job list showing Notion To Film watcher.

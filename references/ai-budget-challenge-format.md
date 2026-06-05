@@ -1,6 +1,6 @@
 # AI Budget Challenge Format
 
-Use when Sharbel develops a viral challenge video comparing cheap vs expensive AI setups.
+Use when the creator develops a viral challenge video comparing cheap vs expensive AI setups.
 
 ## Proven packaging
 
@@ -9,7 +9,7 @@ Default to the broad viral title formula, not a technical benchmark title:
 - Primary title: `$0 vs $10,000 AI Challenge`
 - Thumbnail text: `$0 vs $10K`
 - Avoid over-explaining the economics in the title.
-- Avoid `AI model` when the video is really a build challenge, unless Sharbel explicitly wants the benchmark framing.
+- Avoid `AI model` when the video is really a build challenge, unless the creator explicitly wants the benchmark framing.
 
 The title sells the contrast. The intro explains the mechanics.
 
@@ -22,7 +22,7 @@ For this format, prefer four tiers:
 3. `$100`: premium coding setup, for example Claude Code/Max-style serious solo-builder tier
 4. Either `$1,000` or `$10,000`, but not both
 
-Sharbel preferred keeping the final packaging as `$0 vs $10,000 AI Challenge` because it is the viral proven title formula.
+the creator preferred keeping the final packaging as `$0 vs $10,000 AI Challenge` because it is the viral proven title formula.
 
 ## $10,000 tier realism
 
@@ -98,4 +98,4 @@ Judge by:
 - Put the tier nuance in the intro, not the packaging.
 - Use clean spoken prose from the hook onward.
 - No em dashes.
-- Do not show the script framework or strategy brief in the Notion script unless Sharbel explicitly asks.
+- Do not show the script framework or strategy brief in the Notion script unless the creator explicitly asks.

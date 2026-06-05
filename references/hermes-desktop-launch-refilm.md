@@ -1,6 +1,6 @@
 # Hermes Desktop launch refilm pattern, 2026-06-02
 
-Use when Sharbel has already filmed or drafted a Hermes Agent video and Nous ships an official product update that changes the packaging or demo path.
+Use when the creator has already filmed or drafted a Hermes Agent video and Nous ships an official product update that changes the packaging or demo path.
 
 ## Durable lesson
 
