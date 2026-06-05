@@ -54,7 +54,7 @@ Present this to the creator after reading comments:
 ## Upgrade pattern
 Often the creator's picks are directionally right but a comment improves the version:
 - "Amazon every Monday" → @SnowSunFun's mystery gift agent (better emotional hook)
-- "AI girlfriend" → confirmed by adjacent comments (proxy wife, pet agent format)
+- Companion-agent concept → confirmed by adjacent comments (relationship proxy, pet agent format)
 - "Hair agent" → weak without real proof asset; look for something demoable
 
 ## After the creator confirms the 3

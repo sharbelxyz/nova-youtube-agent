@@ -52,8 +52,8 @@ OpenClaw will clone the repo, install the skill, and Nova will run onboarding au
 ### Option B: Manual install
 
 ```bash
-# Clone into your OpenClaw skills directory
-git clone https://github.com/sharbelxyz/nova-youtube-agent.git ~/clawd/skills/nova-youtube-agent
+# Clone into your agent's skills directory
+git clone https://github.com/sharbelxyz/nova-youtube-agent.git ~/skills/nova-youtube-agent
 ```
 
 Then tell your OpenClaw:
