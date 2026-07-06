@@ -1,16 +1,13 @@
-# Personal config — users create this during onboarding, never commit it
+# Personal config, users create this during onboarding, never commit it
 config.md
 
-# Memory files contain personal data — never commit
-memory/approved-ideas.md
-memory/rejected-ideas.md
-memory/performance-log.md
-memory/competitor-scans.md
-memory/channel-analysis.md
-memory/voice-examples.md
-
-# Keep the memory folder structure but not the contents
+# Memory files contain personal data, never commit
+memory/*.md
 !memory/.gitkeep
+
+# Local deliverables
+outputs/
+deliverables/
 
 # OS files
 .DS_Store

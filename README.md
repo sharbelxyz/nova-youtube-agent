@@ -1,182 +1,139 @@
-# Nova - YouTube Growth Agent for OpenClaw
+# Nova, YouTube Growth Agent for Hermes
 
-Nova is an AI agent that handles your YouTube content strategy end-to-end.
-Competitor research. Channel analysis. Video ideas. Scripts. Performance tracking. Feedback loop.
+Nova is a reusable YouTube growth agent for [Hermes Agent](https://hermes-agent.nousresearch.com/). It helps creators move from random brainstorming to a repeatable content system.
 
-Built with [OpenClaw](https://openclaw.ai). Self-installs in under 5 minutes.
+Nova researches your channel, competitors, keywords, source videos, transcripts, pipeline, approvals, rejections, and voice before it recommends ideas or writes scripts.
 
----
+## What Nova does
 
-## What Nova Does
+| System | What it does |
+|---|---|
+| Onboarding | Learns your channel, audience, goals, voice, competitors, tools, and boundaries |
+| Channel analysis | Finds what is working and not working on your own channel |
+| Competitor scan | Finds outlier videos, title patterns, hooks, thumbnails, and source structures |
+| Idea generation | Interviews you and combines your real proof with market evidence |
+| Filming slate | Helps decide what to film next without repeating posted or rejected ideas |
+| Script writing | Writes filming scripts with retention structure, proof, caveats, and SEO |
+| Upload package | Creates description, tags, chapters, title variants, thumbnail concept, and pinned comment |
+| Performance log | Tracks video results and updates future recommendations |
+| Feedback loop | Learns from approvals, rejections, and post-publish performance |
 
-| System | What It Does |
-|--------|-------------|
-| 🔍 Competitor Scan | Finds outlier videos (2x+ avg) across your competitor channels and extracts what's working |
-| 📊 Channel Analysis | Analyzes your own videos to find patterns in what performs and what doesn't |
-| 💡 Idea Generation | Interviews you first, then generates research-backed ideas grounded in real experience |
-| 📝 Script Writing | Full scripts in your voice with a complete SEO package (title variants, description, tags, chapters, thumbnail) |
-| 📈 Performance Logging | Tracks how each video does after publishing |
-| 🔄 Feedback Loop | Logs every approval and rejection with reasons - Nova never repeats a rejected angle |
-| 🧠 Learning Loop | Reads all memory files before every session - gets smarter the longer you use it |
+## Why this exists
 
----
+Most creators do content strategy in scattered places: YouTube tabs, analytics, notes, vidIQ, Notion, comments, transcripts, and half-remembered ideas.
 
-## Results (the creator who built this)
+Nova turns that into one workflow:
 
-- 1,010 subs → 4,950 in 8 weeks using Nova (2,600+ gained in the last 4 weeks alone)
-- Hit YouTube monetization (1K subs + 4K watch hours)
-- Video prep cut from 4-6 hours to ~1 hour per video
+1. Check what you already posted.
+2. Check what is already approved, rejected, filmed, or scheduled.
+3. Check your channel performance.
+4. Check competitors and outliers.
+5. Check keyword demand when tools are available.
+6. Interview you for real proof and experience.
+7. Recommend the strongest idea with receipts.
+8. Turn it into a script and upload package.
+9. Log performance and learn for next time.
 
----
+## Installation
 
-## Requirements
-
-- [OpenClaw](https://openclaw.ai) installed
-- Any supported AI model (Claude, GPT-4o, Gemini - all work)
-- A YouTube channel (any size, any niche)
-
----
-
-## Installation - 2 Ways
-
-### Option A: Send the repo link to OpenClaw (easiest)
-
-Just tell your OpenClaw agent:
-
-```
-Install this skill: https://github.com/sharbelxyz/nova-youtube-agent
-```
-
-OpenClaw will clone the repo, install the skill, and Nova will run onboarding automatically.
-
-### Option B: Manual install
+Clone this repo into your Hermes skills directory:
 
 ```bash
-# Clone into your OpenClaw skills directory
-git clone https://github.com/sharbelxyz/nova-youtube-agent.git ~/clawd/skills/nova-youtube-agent
+git clone https://github.com/sharbelxyz/nova-youtube-agent.git ~/.hermes/skills/nova-youtube-agent
 ```
 
-Then tell your OpenClaw:
-```
-Install Nova
+Then tell Hermes:
+
+```text
+Nova, set up my YouTube agent.
 ```
 
-Nova will detect the new skill and walk you through 10 onboarding questions.
-
----
+Nova will run onboarding and create a private `config.md` file.
 
 ## Onboarding
 
-First time you run Nova, she'll ask you 10 questions:
+Nova asks for your channel name, channel URL, niche, ideal viewer, subscriber goal, current size, voice, competitors, what to avoid, best videos, optional tools, and optional storage preferences.
 
-1. Your name and channel name
-2. Channel URL
-3. Your niche (one sentence)
-4. Your target audience
-5. Your subscriber goal + deadline
-6. Current subscriber count
-7. How you naturally talk (voice description)
-8. 5-10 competitor channels to monitor
-9. What to avoid (flops, off-brand formats)
-10. Your top 2-3 videos (optional - for voice calibration)
+Your answers stay local in `config.md`.
 
-Takes about 5 minutes. Nova writes your answers to `config.md` automatically. You never do this again.
+## Memory files
 
----
+Nova creates a private `memory/` folder:
 
-## How to Use Nova
+- `posted-videos.md`
+- `approved-ideas.md`
+- `rejected-ideas.md`
+- `performance-log.md`
+- `competitor-scans.md`
+- `channel-analysis.md`
+- `voice-examples.md`
+- `pipeline.md`
 
-After setup, just talk to her naturally:
+These files are gitignored. They are where Nova learns your taste and avoids repeating old ideas.
 
-```
-Nova, scan my competitors for what's working this week
-```
-```
-Nova, I want to make a video - interview me and let's find an idea
-```
-```
-Nova, write a full script for [idea]
-```
-```
-Nova, my last video got 4,200 views - log the performance
-```
-```
-Nova, show me the feedback loop - what patterns have you noticed?
-```
+## Evidence labels
 
----
+Nova labels recommendations so you know what is proven and what is judgment:
 
-## How the Learning Loop Works
+- `channel-data-backed`
+- `pipeline-backed`
+- `vidIQ-backed`
+- `competitor-backed`
+- `YouTube-validation-backed`
+- `transcript-backed`
+- `strategic judgment`
 
-Nova keeps a `memory/` folder with:
-- `approved-ideas.md` - every idea you said yes to
-- `rejected-ideas.md` - every idea you rejected + why
-- `performance-log.md` - every video's stats after publishing
-- `competitor-scans.md` - history of niche research
-- `voice-examples.md` - your voice patterns and phrases
+If vidIQ is not available, Nova should say so and use a YouTube fallback. It should not pretend fallback data is vidIQ.
 
-Before every session, Nova reads all of these. She never repeats a rejected angle. She weights suggestions toward what's actually performed on your channel. The longer you use her, the better the ideas.
+## Example prompts
 
----
-
-## File Structure
-
-```
-nova-youtube-agent/
-├── README.md              ← You're reading this
-├── SKILL.md               ← Nova's full instructions (all 7 systems)
-├── config.md              ← Auto-created during onboarding (gitignored)
-├── example-config.md      ← Real example for reference
-└── memory/
-    ├── approved-ideas.md  ← Auto-populated (gitignored)
-    ├── rejected-ideas.md  ← Auto-populated (gitignored)
-    ├── performance-log.md ← Auto-populated (gitignored)
-    ├── competitor-scans.md← Auto-populated (gitignored)
-    ├── channel-analysis.md← Auto-populated (gitignored)
-    └── voice-examples.md  ← Auto-populated (gitignored)
+```text
+Nova, analyze my channel and tell me what is working.
 ```
 
-Note: `config.md` and all `memory/` files are gitignored. Your personal data never leaves your machine.
+```text
+Nova, scan my competitors and find outlier video ideas.
+```
 
----
+```text
+Nova, help me decide what to film next week.
+```
 
-## Customizing Nova
+```text
+Nova, interview me and generate 5 video ideas.
+```
 
-- To change your channel details: edit `config.md`
-- To change how Nova behaves: edit `SKILL.md` (plain English, no code)
-- To reset and start fresh: delete `config.md` and all `memory/` files, then run "Install Nova" again
+```text
+Nova, write a full filming script for this idea.
+```
 
----
+```text
+Nova, create the upload description, chapters, tags, pinned comment, and thumbnail concept.
+```
 
-## FAQ
+```text
+Nova, log this video's performance and update the feedback loop.
+```
 
-**Does this work for any niche?**
-Yes. Onboarding calibrates Nova to your niche, voice, and competitors.
+## Optional integrations
 
-**Do I need to be technical?**
-No. If you can install OpenClaw and answer 10 questions, you're set.
+Nova works with whatever information you provide. Useful optional tools:
 
-**Does Nova post videos automatically?**
-No. Nova handles strategy and scripts. Filming and publishing stays with you.
+- vidIQ, for keyword and outlier research
+- YouTube Studio exports or screenshots
+- Notion or another content board
+- transcript tools
+- Google Sheets or CSV analytics exports
+- browser access for public YouTube research
 
-**Is my data private?**
-Yes. `config.md` and all `memory/` files are gitignored and stay on your machine.
+All integrations should use your own local credentials and permissions. This repo does not include secrets.
 
-**What model works best?**
-Claude Sonnet or GPT-4o. Both work well for this.
+## Privacy
 
----
+This public repo intentionally excludes private memory logs, local file paths, API keys, secret locations, Notion database IDs, chat IDs, client information, and private channel strategy notes.
 
-## About
-
-Built by [Sharbel](https://youtube.com/@sharbel) - founder, AI builder, creator.
-
-Video that goes with this repo: [The AI Agent That Got Me YouTube Monetized](https://youtu.be/MwGbZkYYHVw)
-
-If this helps you, star the repo. More agent builds on the channel.
-
----
+Use `example-config.md` and `templates/config-template.md` as safe starting points.
 
 ## License
 
-MIT - free to use, modify, and share.
+MIT
