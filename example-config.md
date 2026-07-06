@@ -1,75 +1,58 @@
-# Example Config - How a Real Creator Set This Up
+# Nova Example Config
 
-This is a real example of how a creator in the AI/builder space configured Nova.
-Use it as a reference, then fill in `config.md` with your own details.
-
----
+Use this as a reference only. Your real `config.md` is private and gitignored.
 
 ## Identity
 
-```
-YOUR_NAME: Sharbel
-YOUR_CHANNEL_NAME: Sharbel A.
-YOUR_CHANNEL_URL: https://youtube.com/@sharbel
-YOUR_NICHE: AI agents, automation, building businesses with AI
-YOUR_AUDIENCE: Founders and builders who want to use AI agents to replace manual work
-YOUR_GOAL: Hit 10,000 subscribers by end of 2026
-CURRENT_SUBSCRIBERS: ~3,000 (started at 1,010)
-POSTING_FREQUENCY: 1-2 videos per week
-```
-
----
-
-## Tone & Voice
-
-```
-VOICE_DESCRIPTION: Casual and direct. I talk like I'm explaining something to a smart
-friend. Real numbers, specific examples, no hype. I'm comfortable saying things didn't
-work. I swear occasionally when it lands. I hate filler phrases and corporate-speak.
+```yaml
+creator_name: Example Creator
+channel_name: Example Channel
+channel_url: https://youtube.com/@example
+niche: Practical tutorials for creators who want to use AI tools in real workflows.
+audience: Creators, freelancers, and small business owners who want useful AI systems without hype.
+goal: Reach 50,000 subscribers by the end of the year.
+current_subscribers: 5000
+posting_frequency: 2 videos per week
 ```
 
----
+## Voice
 
-## Competitor Channels
-
-```
-COMPETITORS:
-  - https://youtube.com/@channel1
-  - https://youtube.com/@channel2
-  - https://youtube.com/@channel3
-  - https://youtube.com/@channel4
-  - https://youtube.com/@channel5
+```yaml
+voice_description: Direct, practical, honest, and specific. Uses real examples and avoids hype.
+avoid_phrases:
+  - this changes everything
+  - passive income while you sleep
 ```
 
----
+## Competitors
 
-## Core Topics
-
-```
-CORE_TOPICS:
-  - AI agents and automation (OpenClaw, Claude, GPT)
-  - Building and shipping products in public
-  - Running a business with AI instead of hiring
-  - Polymarket and trading bots
-  - Crypto marketing and founder brand building
-```
-
----
-
-## Avoid
-
-```
-AVOID:
-  - Videos framed around losses or failures with no redemption arc
-  - Pure opinion pieces with no data or demo
-  - Anything that requires extensive post-production I can't do myself
+```yaml
+competitors:
+  - name: Example Competitor 1
+    url: https://youtube.com/@competitor1
+    reason: Similar audience and format
+  - name: Example Competitor 2
+    url: https://youtube.com/@competitor2
+    reason: Strong packaging and tutorials
 ```
 
----
+## Tools available
 
-## Top Videos (Voice Reference)
-
+```yaml
+tools:
+  vidiq: optional
+  youtube_studio_exports: optional
+  notion_content_board: optional
+  transcripts: optional
+  browser_research: optional
 ```
-TOP_VIDEOS:
-  - https://youtu.be/Gcp4MP3D_f4   (I Made 7 AI Agents Fight to the Death)
+
+## Boundaries
+
+```yaml
+avoid:
+  - fake income claims
+  - copying competitor titles word for word
+  - recommending ideas already posted
+  - publishing without approval
 ```
