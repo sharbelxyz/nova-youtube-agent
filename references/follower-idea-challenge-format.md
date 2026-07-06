@@ -12,7 +12,7 @@ User posts on X/YouTube asking followers for their "best/weirdest agent ideas" a
 YouTube is logged in on Brave CDP. Use the Python websockets CDP approach:
 - Navigate the YouTube tab to the post URL
 - Wait ~7 seconds for comment loading
-- Extract `document.body.innerText` — YouTube renders comments in plain text including @handles, timestamps, like counts, and reply counts
+- Extract `document.body.innerText` - YouTube renders comments in plain text including @handles, timestamps, like counts, and reply counts
 - Comments load in "Top" sort by default; this is usually fine for picking the most engaging ideas
 
 ### X post replies
@@ -37,18 +37,18 @@ Present this to the creator after reading comments:
 
 ```
 ## Creator's 3 picks
-- [Pick 1] — [brief eval: keep / upgrade to better version / swap]
-- [Pick 2] — [brief eval]
-- [Pick 3] — [brief eval]
+- [Pick 1] - [brief eval: keep / upgrade to better version / swap]
+- [Pick 2] - [brief eval]
+- [Pick 3] - [brief eval]
 
 ## Top comments not on their list
-- [Comment author]: [idea summary] — [why it's worth considering]
+- [Comment author]: [idea summary] - [why it's worth considering]
 ...
 
 ## My recommendation: best 3 to build
-1. [Idea] — [1-sentence reason: funny/original/buildable]
-2. [Idea] — [1-sentence reason]
-3. [Idea] — [1-sentence reason]
+1. [Idea] - [1-sentence reason: funny/original/buildable]
+2. [Idea] - [1-sentence reason]
+3. [Idea] - [1-sentence reason]
 ```
 
 ## Upgrade pattern

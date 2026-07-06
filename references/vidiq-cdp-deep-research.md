@@ -2,7 +2,7 @@
 
 ## When to Use This
 
-The `vidiq-bridge` structured commands (`keywords`, `keywords for-you`, `keywords rising`, etc.) often return the same cached page data regardless of which tab is requested. When you need **real outlier data** — multipliers, VPH, channel names, view counts — skip the bridge and go direct via CDP.
+The `vidiq-bridge` structured commands (`keywords`, `keywords for-you`, `keywords rising`, etc.) often return the same cached page data regardless of which tab is requested. When you need **real outlier data** - multipliers, VPH, channel names, view counts - skip the bridge and go direct via CDP.
 
 ## Prerequisite
 
@@ -47,7 +47,7 @@ asyncio.run(get_vidiq_tab("https://app.vidiq.com/research/explore?tab=videos"))
 | URL | What You Get |
 |---|---|
 | `https://app.vidiq.com/research/explore?tab=keywords` | Full keyword list with search volume + competition level (Low/Medium/High). Use to identify keyword gaps. |
-| `https://app.vidiq.com/research/explore?tab=keywords&keywordTab=rising` | Full rising keywords list with % change and competition. Filter manually for AI/agent niche — most rising keywords are off-niche (gaming, sports, TV). |
+| `https://app.vidiq.com/research/explore?tab=keywords&keywordTab=rising` | Full rising keywords list with % change and competition. Filter manually for AI/agent niche - most rising keywords are off-niche (gaming, sports, TV). |
 | `https://app.vidiq.com/research/explore?tab=keywords&keywordTab=search-terms` | Keywords currently driving views to the channel |
 | `https://app.vidiq.com/research/explore` | Keywords for you, outlier videos, rising keywords preview, top search terms, Shorts outliers |
 | `https://app.vidiq.com/research/explore?tab=videos` | Outlier videos with **multiplier score (e.g. 5.5x)**, VPH, channel name, subs, view count |
@@ -96,8 +96,8 @@ The "Top search terms" section on the main explore page shows what's actually dr
 | Keyword | Views | Watch Time (min) |
 |---|---|---|
 | hermes agent | 4,141 | 17,543 |
-| hermes | 1,669 | — |
-| hermes vs openclaw | 1,477 | — |
+| hermes | 1,669 | - |
+| hermes vs openclaw | 1,477 | - |
 
 This data updates each session. Check it before making any recommendations.
 
@@ -108,7 +108,7 @@ The raw `innerText` includes navigation chrome. Filter out boilerplate lines:
 ```python
 skip = {'Skip to main content', 'New Chat', 'Feed', 'Optimize', 'Research',
         'Install Extension', 'More tools', 'History', 'View all', 'Boost',
-        'web3kermit@gmail.com', 'Log in daily to keep earning free credits'}
+        '<YOUR_VIDIQ_ACCOUNT_EMAIL>', 'Log in daily to keep earning free credits'}
 
 lines = [l.strip() for l in text.split('\n')
          if l.strip() and len(l.strip()) > 3 and l.strip() not in skip]
@@ -116,7 +116,7 @@ lines = [l.strip() for l in text.split('\n')
 
 ## Keyword Gap Sample (2026-05-26)
 
-From `?tab=keywords` — high volume, Low competition gaps not yet covered by the creator:
+From `?tab=keywords` - high volume, Low competition gaps not yet covered by the creator:
 
 | Keyword | Volume | Competition |
 |---|---|---|
@@ -134,9 +134,9 @@ From `?tab=keywords` — high volume, Low competition gaps not yet covered by th
 | `hermes agent hostinger` | 47K | Medium |
 
 Rising keyword relevant to niche from `?tab=keywords&keywordTab=rising`:
-- `hermes desktop` — 150K, **+3,400%**, Medium competition (spiked May 2026)
-- `grok agent mode` — 173K, +2,100%, Very low competition
-- `gemini 3.5` / `gemini 3.5 flash` — 298K-484K, ~1,900%
+- `hermes desktop` - 150K, **+3,400%**, Medium competition (spiked May 2026)
+- `grok agent mode` - 173K, +2,100%, Very low competition
+- `gemini 3.5` / `gemini 3.5 flash` - 298K-484K, ~1,900%
 
 ## Pitfalls
 
