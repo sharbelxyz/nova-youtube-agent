@@ -16,3 +16,5 @@ Thumbs.db
 # Environment files
 *.env
 .env*
+
+memory/posted-videos.md
